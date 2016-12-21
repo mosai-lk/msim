@@ -10,12 +10,13 @@
 		02856F829D3687CCB225A984E9E2DD57 /* Pods-MSIM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD1DBFC5BE78E6B0191073635A4B55 /* Pods-MSIM_Tests-dummy.m */; };
 		176F78BC139D68E396187A46083B7845 /* Pods-MSIM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 858E9DE206AB27596971A4D4CA7D37D1 /* Pods-MSIM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38E44DD952A1BA269D154A14CD7217B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4A9C2A801E0A5A3B00FCC84F /* MSIMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9C2A7E1E0A5A3B00FCC84F /* MSIMViewController.h */; };
+		4A9C2A811E0A5A3B00FCC84F /* MSIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C2A7F1E0A5A3B00FCC84F /* MSIMViewController.m */; };
 		84526341DFC9E01A22FFA4BAA2B1B563 /* MSIM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 931BC5199143BDB6978041659BDC24F2 /* MSIM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E81A3E550EDCD214D706E88CEB21EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A2FBBCBDAD50DA3DF835E80FCD4E8C30 /* Pods-MSIM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AACE4E86ED34109ADFE5810063EA0F3 /* Pods-MSIM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7CC47DAD3F53C0B47EB8F559C973AE6 /* MSIM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DD7E5338A556DE453B336A04BDC77 /* MSIM-dummy.m */; };
 		D8A12916723BBF234A8EDBD4488E28D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DF198AC28012C68D5F264E6585B5BCC4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C376A2CBB5F048FBA5283AABF4733A56 /* ReplaceMe.m */; };
 		FBC77E361981D5B5CF3AA5B5C8FA19B1 /* Pods-MSIM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C937589A0E7DC0782FFDE3E41AA27518 /* Pods-MSIM_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -31,27 +32,28 @@
 
 /* Begin PBXFileReference section */
 		0C174F6AC832A349FC5DBE2E4D099E50 /* Pods-MSIM_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSIM_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0E8911DE1662B6D6093CB197AC27CDF3 /* Pods-MSIM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MSIM_Example.modulemap"; sourceTree = "<group>"; };
+		0E8911DE1662B6D6093CB197AC27CDF3 /* Pods-MSIM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MSIM_Example.modulemap"; sourceTree = "<group>"; };
 		101D8FDB96893B8684A7B7E56E6A41C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		159AD8B745802F9B88E361AB30D42CF4 /* Pods_MSIM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSIM_Example.framework; path = "Pods-MSIM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		159AD8B745802F9B88E361AB30D42CF4 /* Pods_MSIM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSIM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9C2A7E1E0A5A3B00FCC84F /* MSIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIMViewController.h; sourceTree = "<group>"; };
+		4A9C2A7F1E0A5A3B00FCC84F /* MSIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSIMViewController.m; sourceTree = "<group>"; };
 		5A0164FFBF5E1204125636F0FE92514A /* MSIM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSIM.xcconfig; sourceTree = "<group>"; };
-		5CF06BD00FBA3F4401371CEF2B23BC34 /* MSIM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MSIM.modulemap; sourceTree = "<group>"; };
+		5CF06BD00FBA3F4401371CEF2B23BC34 /* MSIM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MSIM.modulemap; sourceTree = "<group>"; };
 		64AA1C6882F7559E1A72E4520BE30493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CBD1DBFC5BE78E6B0191073635A4B55 /* Pods-MSIM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSIM_Tests-dummy.m"; sourceTree = "<group>"; };
-		7820B2A13A8A68F6B4D18CBEA33604E4 /* Pods-MSIM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MSIM_Tests.modulemap"; sourceTree = "<group>"; };
+		7820B2A13A8A68F6B4D18CBEA33604E4 /* Pods-MSIM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MSIM_Tests.modulemap"; sourceTree = "<group>"; };
 		7B1439A5A8DE5F693FA5A1C2A1DE7463 /* Pods-MSIM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSIM_Tests-resources.sh"; sourceTree = "<group>"; };
-		84DE77980B809C4E17A6AB9E8E83CC0D /* MSIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSIM.framework; path = MSIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE77980B809C4E17A6AB9E8E83CC0D /* MSIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858E9DE206AB27596971A4D4CA7D37D1 /* Pods-MSIM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSIM_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8AC96EE3C38236AD32A7826F804A4511 /* Pods-MSIM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSIM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		931BC5199143BDB6978041659BDC24F2 /* MSIM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSIM-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9725977696434477C6D585B76072F2E4 /* Pods_MSIM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSIM_Tests.framework; path = "Pods-MSIM_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9725977696434477C6D585B76072F2E4 /* Pods_MSIM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSIM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		972742BE43E7A2D23B0BAD064B92C17A /* Pods-MSIM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSIM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AACE4E86ED34109ADFE5810063EA0F3 /* Pods-MSIM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSIM_Example-umbrella.h"; sourceTree = "<group>"; };
 		A0856D848ADD3E66F2A19243232AA7F9 /* Pods-MSIM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSIM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2C088E2CD5118F1E330B13403650954 /* Pods-MSIM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSIM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1690AB688DCE0CFF782FB64556172C /* Pods-MSIM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSIM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C376A2CBB5F048FBA5283AABF4733A56 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C71DD7E5338A556DE453B336A04BDC77 /* MSIM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSIM-dummy.m"; sourceTree = "<group>"; };
 		C937589A0E7DC0782FFDE3E41AA27518 /* Pods-MSIM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSIM_Example-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -113,9 +115,9 @@
 		1FE3E19FA8ED8DCD13B26827BE095986 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C376A2CBB5F048FBA5283AABF4733A56 /* ReplaceMe.m */,
+				4A9C2A7E1E0A5A3B00FCC84F /* MSIMViewController.h */,
+				4A9C2A7F1E0A5A3B00FCC84F /* MSIMViewController.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -153,7 +155,6 @@
 			children = (
 				1FE3E19FA8ED8DCD13B26827BE095986 /* Classes */,
 			);
-			name = MSIM;
 			path = MSIM;
 			sourceTree = "<group>";
 		};
@@ -248,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84526341DFC9E01A22FFA4BAA2B1B563 /* MSIM-umbrella.h in Headers */,
+				4A9C2A801E0A5A3B00FCC84F /* MSIMViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9C2A811E0A5A3B00FCC84F /* MSIMViewController.m in Sources */,
 				C7CC47DAD3F53C0B47EB8F559C973AE6 /* MSIM-dummy.m in Sources */,
-				DF198AC28012C68D5F264E6585B5BCC4 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

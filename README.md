@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MSIM
 
 [![CI Status](http://img.shields.io/travis/leikai/MSIM.svg?style=flat)](https://travis-ci.org/leikai/MSIM)
@@ -27,3 +28,6 @@ leikai, leikai@mosainet.com
 ## License
 
 MSIM is available under the MIT license. See the LICENSE file for more info.
+=======
+# msim
+>>>>>>> 82f7789b3c9994e5c332932845396f356d933c69

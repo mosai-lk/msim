@@ -1,0 +1,6 @@
+framework module MSIM {
+  umbrella header "MSIM-umbrella.h"
+
+  export *
+  module * { export * }
+}

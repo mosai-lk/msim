@@ -1,0 +1,22 @@
+{
+  "name": "MSIM",
+  "version": "0.1.0",
+  "summary": "A short description of MSIM.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MSIM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leikai": "leikai@mosainet.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MSIM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSIM/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_MSIM_Tests {
+  umbrella header "Pods-MSIM_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

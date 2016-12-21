@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSIM_Example' do
+  pod 'MSIM', :path => '../'
+
+  target 'MSIM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
